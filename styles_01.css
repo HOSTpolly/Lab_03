@@ -4,11 +4,17 @@ body {
     color:  #333;
   }
 
+  a:hover {
+    color:#DBFF00; /* Змінюємо колір на червоний при наведенні */
+  }
   a{
-    color:#DBFF00;
     cursor:pointer;
   }
   
+  /* a:visited {
+    color: antiquewhite;
+  } */
+
   .d-flex {
     display: flex;
   }
